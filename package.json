@@ -1,0 +1,28 @@
+{
+  "name": "matches-by",
+  "version": "1.0.0",
+  "description": "Compare two objects according to the supplied keys",
+  "main": "index.js",
+  "author": "Elliot Maincourt <e.maincourt@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "precommit": "lint-staged"
+  },
+  "lint-staged": {
+    "**/*.js": ["prettier --write", "eslint --fix", "git add"]
+  },
+  "dependencies": {
+    "lodash.curry": "^4.1.1",
+    "lodash.get": "^4.4.2"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-prettier": "^2.9.0",
+    "husky": "^0.14.3",
+    "jest": "^22.4.3",
+    "lint-staged": "^7.0.4",
+    "prettier": "^1.12.1"
+  }
+}
