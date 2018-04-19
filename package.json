@@ -8,7 +8,11 @@
   "scripts": {
     "test": "jest",
     "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
     "precommit": "lint-staged"
+  },
+  "jest": {
+    "testEnvironment": "node"
   },
   "lint-staged": {
     "**/*.js": ["prettier --write", "eslint --fix", "git add"]

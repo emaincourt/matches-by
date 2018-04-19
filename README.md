@@ -1,3 +1,6 @@
+[![CircleCI](https://circleci.com/gh/emaincourt/matches-by/tree/master.svg?style=shield)](https://circleci.com/gh/emaincourt/matches-by/tree/master)
+[![codecov](https://codecov.io/gh/emaincourt/matches-by/branch/master/graph/badge.svg)](https://codecov.io/gh/emaincourt/matches-by)
+
 ## matchesBy
 
 ## Usage
